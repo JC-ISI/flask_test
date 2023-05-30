@@ -13,6 +13,8 @@ from api.v1.sample_2 import bp_obj1
 # # from error_handlers import error_blueprint (to integrate error handlers if needed)
 #
 app = Flask(__name__)
+
+
 CORS(app)
 # CORS(app, resources={r"/*": {
 #     "origins": ["http://xerox.tatrasdata.com.s3-website.ap-south-1.amazonaws.com", "http://localhost:4200",
