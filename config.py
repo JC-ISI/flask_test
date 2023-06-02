@@ -1,0 +1,2 @@
+REDIS_BROKER='redis://127.0.0.1:6379'
+REDIS_BACKEND='redis://127.0.0.1:6379'

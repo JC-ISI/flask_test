@@ -10,6 +10,7 @@ from flask import Flask, request, Response
 from flask_cors import CORS
 from api.v1.sample_1 import bp_obj
 from api.v1.sample_2 import bp_obj1
+
 # # from error_handlers import error_blueprint (to integrate error handlers if needed)
 #
 app = Flask(__name__)
